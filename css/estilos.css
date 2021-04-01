@@ -1,0 +1,58 @@
+body{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+header{
+    background-color: coral;
+    text-align: center;
+    font-size: large;
+    color: brown;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    background-color: bisque;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+
+footer{
+    background-color: brown;
+    color: bisque;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+#contexto{
+    text-align: center;
+}
+
+#tablero{
+    width: 100%;
+}
+
+.fila{
+    overflow:hidden;
+    text-align: center;
+    margin:auto;
+}
+
+.celda{
+    display:inline-table;
+    border:1px solid #999;
+    padding:15px;
+    height:40px;
+    width:40px;
+    margin:2px;
+    background-color: saddlebrown;
+}

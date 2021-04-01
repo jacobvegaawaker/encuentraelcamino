@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="js/funciones.js"></script>
+    <title>JavaScript - Ejercicio práctico</title>
+</head>
+<body>
+    <header>
+        <h1>Encuentra el camino</h1>        
+    </header>
+    <main>
+        <section id="contexto">
+            <p>En este ejercicio debes crear un camino entre las celdas coloreadas en la 
+                primera y última columnas. Debes ir avanzando siempre entre celdas 
+                adyacentes, de lo contrario el juego enviará un mensaje de error. </p>
+        </section>
+        <section id="tablero">
+            <div class="fila">
+                <div id="celda11" class="celda" onclick="validar(this);"></div>
+                <div id="celda12" class="celda" onclick="validar(this);"></div>
+                <div id="celda13" class="celda" onclick="validar(this);"></div>
+                <div id="celda14" class="celda" onclick="validar(this);"></div>
+            </div>
+            <div class="fila">
+                <div id="celda21" class="celda" onclick="validar(this);"></div>
+                <div id="celda22" class="celda" onclick="validar(this);"></div>
+                <div id="celda23" class="celda" onclick="validar(this);"></div>
+                <div id="celda24" class="celda" onclick="validar(this);"></div>
+            </div>
+            <div class="fila">
+                <div id="celda31" class="celda" onclick="validar(this);"></div>
+                <div id="celda32" class="celda" onclick="validar(this);"></div>
+                <div id="celda33" class="celda" onclick="validar(this);"></div>
+                <div id="celda34" class="celda" onclick="validar(this);"></div>
+            </div>
+            <div class="fila">
+                <div id="celda41" class="celda" onclick="validar(this);"></div>
+                <div id="celda42" class="celda" onclick="validar(this);"></div>
+                <div id="celda43" class="celda" onclick="validar(this);"></div>
+                <div id="celda44" class="celda" onclick="validar(this);"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;Awakelab - 2021 
+    </footer>
+    <script>
+        iniciar();
+    </script>
+</body>
+</html>
